@@ -31,7 +31,7 @@ async function validState(state: string, secret: string): Promise<boolean> {
   const parts = state.split(".");
   if (parts.length !== 3) return false;
   const [timestamp, nonce, signature] = parts;
-  if (!/^\\d+$/.test(timestamp) || !/^[a-f0-9]{32}$/.test(nonce)) return false;
+  if (!/^\d+$/.test(timestamp) || !/^[a-f0-9]{32}$/.test(nonce)) return false;
   const age = Date.now() - Number(timestamp);
   if (age < 0 || age > 10 * 60 * 1000) return false;
   const expected = await signState(timestamp + "." + nonce, secret);
