@@ -3,7 +3,7 @@ backend:
   repo: novakidz/novakidz-website
   branch: main
   # Set this to the deployed Cloudflare OAuth Worker URL after it is created.
-  base_url: https://YOUR-CLOUDFLARE-OAUTH-WORKER.workers.dev
+  base_url: https://novakidz-cms-auth.novakidz55.workers.dev
   auth_endpoint: auth
 media_folder: "uploads"
 public_folder: "/uploads"
