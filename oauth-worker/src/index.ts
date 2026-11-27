@@ -9,7 +9,7 @@ function randomState(): string {
 }
 function popup(status: string, token = ""): Response {
   const payload = JSON.stringify({ token });
-  const html = '<!doctype html><html><body><p>Completing NovaKidz sign-in…</p><script>window.opener.postMessage("authorization:github:' + status + ':" + JSON.stringify(' + payload + '), window.location.origin);window.close();</script></body></html>';
+  const html = '<!doctype html><html><body><p>Completing NovaKidz sign-in…</p><script>window.opener.postMessage("authorization:github:' + status + ':" + JSON.stringify(' + payload + '), "*");window.close();</script></body></html>';
   return new Response(html, { headers: { "Content-Type": "text/html; charset=utf-8" } });
 }
 export default {
