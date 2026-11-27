@@ -1,29 +1,27 @@
 {
-  "hero_title": "Little Minds. Big Adventures!",
-  "hero_intro": "Welcome to NovaKidz! Explore letters, animals, fruits, colours and shapes through fun, colourful videos made for curious little learners.",
-  "age_note": "Playful learning for little learners ages 2–4",
+  "hero_title": "Big ideas made fun for little minds!",
+  "hero_intro": "Learn, play and grow with joyful videos and playful discoveries. Every little adventure starts here.",
+  "age_note": "Playful learning for curious little minds",
   "topics": [
     {
       "title": "ABC & Letters",
-      "description": "Discover the alphabet, one happy letter at a time. Sing, say and learn your ABCs with us!",
+      "description": "Letters, sounds and first words — let's learn our ABCs!",
       "tag": "Letters & sounds"
     },
     {
       "title": "Animal Friends",
-      "description": "Meet friendly animals, learn their names and make their wonderful sounds.",
-      "tag": "Animals & sounds"
+      "description": "Meet lovely animals and discover the sounds they make.",
+      "tag": "Meet the animals"
     },
     {
       "title": "Fruits & Veggies",
-      "description": "Explore yummy fruits and vegetables, their names and their bright colours.",
-      "tag": "Healthy discoveries"
+      "description": "Explore colourful foods, new names and healthy bites.",
+      "tag": "Yummy discoveries"
     },
     {
       "title": "Colours & Shapes",
-      "description": "Spot beautiful colours and simple shapes all around you through playful discovery.",
-      "tag": "Look & learn"
+      "description": "Spot bright colours and playful shapes all around us.",
+      "tag": "Colours & shapes"
     }
-  ],
-  "about_title": "Where Little Minds Grow",
-  "about_text": "At NovaKidz, learning feels like play! We create bright, friendly videos that help toddlers and preschoolers discover the world through letters, animals, fruits, colours and shapes. Every little adventure is a chance to smile, explore and grow."
+  ]
 }
