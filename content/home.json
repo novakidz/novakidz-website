@@ -1,0 +1,29 @@
+{
+  "hero_title": "Big learning for little minds.",
+  "hero_intro": "Welcome to NovaKidz — a colourful world where little learners discover letters, animals, fruits, colours and shapes through fun videos.",
+  "age_note": "Made for curious little learners ages 2–4",
+  "topics": [
+    {
+      "title": "ABC & Letters",
+      "description": "Meet the alphabet, one fun letter at a time.",
+      "tag": "Letters & sounds"
+    },
+    {
+      "title": "Animal Friends",
+      "description": "Say hello to amazing animals and their sounds.",
+      "tag": "Animals & sounds"
+    },
+    {
+      "title": "Fruits & Veggies",
+      "description": "Discover colourful foods and their names.",
+      "tag": "Healthy discoveries"
+    },
+    {
+      "title": "Colours & Shapes",
+      "description": "Explore the world of colours and shapes.",
+      "tag": "Look & learn"
+    }
+  ],
+  "about_title": "A happy place to begin learning.",
+  "about_text": "NovaKidz creates bright, friendly educational videos for toddlers and preschoolers. We believe learning should feel like play — full of colour, wonder and joyful little moments."
+}
