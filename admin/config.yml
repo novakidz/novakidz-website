@@ -1,0 +1,30 @@
+backend:
+  name: github
+  repo: novakidz/novakidz-website
+  branch: main
+  # Set this to the deployed Cloudflare OAuth Worker URL after it is created.
+  base_url: https://YOUR-CLOUDFLARE-OAUTH-WORKER.workers.dev
+  auth_endpoint: auth
+media_folder: "uploads"
+public_folder: "/uploads"
+collections:
+  - name: "pages"
+    label: "Website Content"
+    files:
+      - name: "home"
+        label: "Homepage"
+        file: "content/home.json"
+        format: "json"
+        fields:
+          - { label: "Hero heading", name: "hero_title", widget: "string" }
+          - { label: "Hero introduction", name: "hero_intro", widget: "text" }
+          - { label: "Age note", name: "age_note", widget: "string" }
+          - label: "Learning topics"
+            name: "topics"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Tag", name: "tag", widget: "string" }
+          - { label: "About heading", name: "about_title", widget: "string" }
+          - { label: "About text", name: "about_text", widget: "text" }
